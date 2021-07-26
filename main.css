@@ -1,0 +1,525 @@
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#f1f1f1;
+}
+
+.banner {
+	width:100%;
+	height:170px;
+	background-color:#212121;
+}
+
+.banneryazi {
+	width:1000px;
+	height:120px;
+	margin: 0px auto;
+}
+
+.banner-sol {
+	width:500px;
+	height:105px;
+	float:left;
+	margin-top:63px;
+}
+
+.banner-sag {
+	width:500px;
+	height:120px;
+	float:right;
+	text-align:right;
+	line-height: 210px;
+}
+
+.icon {
+	width:40px;
+	transition:0.5s;
+}
+
+.icon:hover {
+	width:45px;
+}
+
+.menu {
+	width:100%;
+	height:45px;
+	background:#d7602b;
+	font-size:18px;
+	font-family:georgia;
+	color:#212121;
+	letter-spacing: 1px;
+}
+
+.menu-tab:hover {
+	color:#fff;
+	transition:0.5s;
+	background:#c15525;
+
+}
+
+a {
+	color:#212121;
+}
+
+.menu-tab{
+	width:100px;
+	height:45px;
+	display:inline-block;
+	line-height:45px;
+	text-align:center;
+}
+
+.menup {
+	width:1000px;
+	height:45px;
+	margin:0px auto;
+}
+
+.icerik {
+	width:1000px;
+	height: auto;
+	margin: 0px auto;
+
+}
+
+.icerik-sol {
+	width:670px;
+	height:auto;
+	background:#2121212e;
+	float:left;
+	padding:15px;
+}
+
+.icerik-sag {
+	width:300px;
+	height:auto;
+	float:right;
+}
+
+.makale {
+	width:100%;
+	height:170px;
+	background:#fbfffb;
+	margin-bottom:15px;
+	border-radius:5px;
+}
+
+.makale-resim {
+	margin:15px;
+	width:270px;
+	height:140px;
+	float:left;
+}
+
+.makale-baslik {
+	font-size:20px;
+	padding-top:13px;
+	padding-bottom:7px;
+	font-family:sans-serif;
+}
+
+.makale-yazi {
+	font-size:15px;
+	font-family:verdana;
+	margin-right:2px;
+}
+
+.makale-baslik a {
+	color:#b71c1c;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.temizle {
+	width:100%;
+	clear:both;
+}
+
+.sayfalama {
+	width:100%;
+	height:auto;
+	background:#fbfffb;
+}
+
+.onceki {
+	float:left;
+}
+
+.sonraki {
+	float:right;
+}
+
+.on-son-ort {
+	margin:10px;
+	width:95px;
+	height:45px;
+	background:#d7602b;
+	text-align:center;
+	line-height:45px;
+	font-weight:bold;
+	font-family:arial;
+	cursor:pointer;
+	color:#FFFFFF;
+	letter-spacing:1px;
+}
+
+.on-son-ort:hover {
+	background:#c15525;
+	transition:0.5s;
+}
+
+.arama-buton {
+	float:right;
+	margin:15px;
+}
+
+.textbox {
+	border-radius:5px 0px 0px 5px;
+	border:1px solid #d7602b;
+	width:200px;
+	height:30px;
+	outline:none;
+	padding-left:5px;
+	padding-right:15px;
+}
+
+.submitbutton {
+	border-radius:0px 5px 5px 0px;
+	border:1px solid #d7602b;
+	height:30px;
+	background:#d7602b;
+	color:white;
+	outline:none;
+	margin-left:-10px;
+	cursor:pointer;
+}
+
+.etiket-havuzu {
+	float:left;
+	margin-left:60px;
+	margin-top:20px;
+	font-size:20px;
+	width:224px;
+}
+
+.etiket-baslik {
+	border-bottom:2px solid #d7602b;
+	color:#d7602b;
+	margin-bottom:10px;
+	padding-bottom:5px;
+}
+
+.etiket {
+	background:#fbfdf0;
+	display: inline-block;
+	border:1px solid #D4D4D4;
+	border-radius: 3px;
+	padding:5px 8px;
+	margin-bottom: 4px;
+	color:#5f5959;
+	font-family: sans-serif;
+	font-size:17px;
+	cursor:pointer;
+}
+
+.etiket:hover {
+	border:1px solid #a52c2c;
+	color: #000000;
+	transition:0.5s;
+}
+
+.populer-makaleler {
+	width:220px;
+	height:auto;
+	background:#fbfffb;
+	float:left;
+	margin-left:60px;
+	margin-bottom:20px;
+	border-radius:5px;
+	border:1px solid #D1D1D1;
+}
+
+.pop-makaleler-resim {
+	width:200px;
+	height:100px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.pop-makale-baslik {
+	padding-left:10px;
+	padding-top:10px;
+	font-size:20px;
+	color:#9c0000;
+	font-family:georgia;
+	padding-bottom:10px;
+}
+
+.populer-makaleler a {
+	text-decoration:none;
+}
+
+.footer {
+	width:100%;
+	height:230px;
+	background:#212121;
+	float:left;
+}
+
+.footeralt {
+	width:100%;
+	height:45px;
+	background:#000000;
+	float:left;
+	text-decoration:none;
+}
+
+.footeralt p {
+	color:#b5a5a5;
+	margin-top:14px;
+	margin-left:176px;
+	font-family: 'Quicksand', sans-serif;
+	display: inline-block;
+}
+
+.anasayfafoot {
+	padding-left:700px;
+}
+
+.footeralt a {
+	color:#2ee0ea;
+	text-decoration:none;
+}
+
+.footer .kapsul {
+	width:1000px;
+	height:80%;
+	margin:auto;
+	margin-top:20px;
+}
+
+.kapsul .sosyalmedya {
+	width:30%;
+	float:left;
+	margin-right:33px;
+}
+
+.kapsul .baslik {
+	color:#7bd438;
+	font-family:'Quicksand', sans-serif;
+	font-weight:bold;
+	border-bottom:1px solid;
+	padding-bottom:5px;
+}
+
+.yazi ul {
+	font-family:arial;
+	font-family: 'Exo', sans-serif;
+	font-size:17px;
+}
+
+.yazi ul a {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.sosyalmedya .icon {
+	margin-top:15px;
+	margin-left:14px;
+	width:40px;
+}
+
+.mesajkutusu {
+	margin-top:15px;
+	margin-left:14px;
+	width:40px;
+}
+
+.iletisimyazi {
+	float:right;
+	font-family: 'Exo', sans-serif;
+	margin-right:75px;
+	margin-top:26px;
+	color:skyblue;
+}
+
+.makale-detay-resim {
+	width:100%;
+}
+
+.makale-detay-baslik {
+	font-size:45px;
+	font-family: georgia;
+	margin-top:-10px;
+	line-height: 50px;
+	margin-bottom:auto;
+	padding-bottom:10px;
+	color:#31436b;
+}
+
+.makale-detay-aciklama {
+	font-size:20px;
+	font-family:georgia;
+	margin-top:20px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.makale-detay-kaynak {
+	margin-top:50px;
+	border:2px dotted;
+	padding-left:5px;
+	font-size:16px;
+	font-family:'Crafty Girls', cursive;
+}
+
+.makale-detay-etiket {
+	margin-top:20px;
+	border-left:5px solid #9c2525;
+	font-size:18px;
+	background:#9c252540;
+	padding-left:5px;
+	font-family: 'Handlee', cursive;
+}
+
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 0vh;
+	background-color: transparent;
+	overflow: hidden;
+	transition: background-color 0.25s ease;
+	z-index: 9999;
+  }
+  .modal.open {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: background-color 0.25s;
+  }
+  .modal.open > .content-wrapper {
+	transform: scale(1);
+  }
+  .modal .content-wrapper {
+	height: 90vh;
+    overflow-y: auto;
+	overflow-x: hidden;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	width: 50%;
+	margin: 0;
+	padding: 2.5rem;
+	background-color: white;
+	border-radius: 0.3125rem;
+	box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.5);
+	transform: scale(0);
+	transition: transform 0.25s;
+	transition-delay: 0.15s;
+  }
+  .modal .content-wrapper .close {
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	border: none;
+	background-color: transparent;
+	font-size: 1.5rem;
+	transition: 0.25s linear;
+  }
+  .modal .content-wrapper .close:before, .modal .content-wrapper .close:after {
+	position: absolute;
+	content: "";
+	width: 1.25rem;
+	height: 0.125rem;
+	background-color: black;
+  }
+  .modal .content-wrapper .close:before {
+	transform: rotate(-45deg);
+  }
+  .modal .content-wrapper .close:after {
+	transform: rotate(45deg);
+  }
+  .modal .content-wrapper .close:hover {
+	transform: rotate(360deg);
+  }
+  .modal .content-wrapper .close:hover:before, .modal .content-wrapper .close:hover:after {
+	background-color: tomato;
+  }
+  .modal .content-wrapper .modal-header {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 1.25rem;
+  }
+  .modal .content-wrapper .modal-header h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+  }
+  .modal .content-wrapper .content {
+	position: relative;
+	display: flex;
+  }
+  .modal .content-wrapper .content p {
+	font-size: 0.875rem;
+	line-height: 1.75;
+  }
+  .modal .content-wrapper .modal-footer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+	margin: 0;
+	padding: 1.875rem 0 0;
+  }
+  .modal .content-wrapper .modal-footer .action {
+	position: relative;
+	margin-left: 0.625rem;
+	padding: 0.625rem 1.25rem;
+	border: none;
+	background-color: slategray;
+	border-radius: 0.25rem;
+	color: white;
+	font-size: 0.87rem;
+	font-weight: 300;
+	overflow: hidden;
+	z-index: 1;
+  }
+  .modal .content-wrapper .modal-footer .action:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.2);
+	transition: width 0.25s;
+	z-index: 0;
+  }
+  .modal .content-wrapper .modal-footer .action:first-child {
+	background-color: #2ecc71;
+  }
+  .modal .content-wrapper .modal-footer .action:last-child {
+	background-color: #e74c3c;
+  }
+  .modal .content-wrapper .modal-footer .action:hover:before {
+	width: 100%;
+  }
